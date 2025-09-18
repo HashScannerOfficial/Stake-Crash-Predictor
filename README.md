@@ -21,7 +21,7 @@ _Demo-focused stake crash predictor tools — seed-inspection helpers (SHA-512 /
 <h3 align="center">Available for Windows, iOS, and Android<br><br></h3>
 
 <div align="center">
-<img src="https://decryptor.net/wp-content/uploads/2025/09/flame-21186_256.gif" width="100" alt="app screenshot" />
+<img src="https://decryptor.net/wp-content/uploads/2025/09/flame-21186_256.gif" width="100"/>
 </div>
 
 Welcome to the <strong>Stake Crash Predictor</strong> repository! SHA-512 decryption and fairness‑seed inspection power our stake crash predictor for <strong>stake crash, stake mines and stake plinko</strong>. Use the decryption-based Stake predictor tools, stake predictor app builds, and demo predictor bot templates included here. Start in demo mode to safely explore how crash predictor outputs and decryption helpers work.
