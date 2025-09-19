@@ -1,0 +1,41 @@
+name: Create Deployment on Release
+
+on:
+  release:
+    types: [ published ]
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  create_and_mark_deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create deployment and mark success
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            // create a deployment for the released tag/ref
+            const deployment = await github.rest.repos.createDeployment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: context.payload.release.tag_name,
+              required_contexts: [],
+              environment: "production",
+              description: "Release published - deployment record created by Actions",
+              auto_merge: false
+            });
+
+            // mark deployment as successful and attach the environment URL
+            await github.rest.repos.createDeploymentStatus({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              deployment_id: deployment.data.id,
+              state: "success",                     // in_progress | success | failure | inactive
+              environment_url: "https://decryptor.net/",
+              description: "Marked successful by Actions"
+            });
+
+            core.info(`Created deployment ${deployment.data.id} and marked success.`);
