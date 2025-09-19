@@ -17,7 +17,6 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            // create a deployment for the released tag/ref
             const deployment = await github.rest.repos.createDeployment({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -27,15 +26,12 @@ jobs:
               description: "Release published - deployment record created by Actions",
               auto_merge: false
             });
-
-            // mark deployment as successful and attach the environment URL
             await github.rest.repos.createDeploymentStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
               deployment_id: deployment.data.id,
-              state: "success",                     // in_progress | success | failure | inactive
+              state: "success",
               environment_url: "https://decryptor.net/",
               description: "Marked successful by Actions"
             });
-
             core.info(`Created deployment ${deployment.data.id} and marked success.`);
