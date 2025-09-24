@@ -69,7 +69,7 @@ A crash predictor designed specifically for **Stake.us** that combines historica
 Yes. You can start with a free tria for 24h so you can explore the predictor without financial risk.
 
 **Q: Does it work on Stake Mines Too and Stake Plinko?**  
-The Predcitor can work on Stake minesm stake plinko and stake crash as lons as they provide server seed by your account.
+The Predcitor can work on Stake mines stake plinko and stake crash as long as they provide server seed by your account.
 
 **Q: Can this tool inspect Stake fairness seeds?**  
 The repo includes guides on **stake fairness seed** formats and helper tools for **server seed hash decrypt** that explain how fairness data is published; use these to learn about transparency protocols.
